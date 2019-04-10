@@ -1,0 +1,29 @@
+{
+    "name": "schmidtwebmedia/sw-bootstrap-gridelements",
+    "type": "typo3-cms-extension",
+    "description": "F\u00fcgt das Bootstrap 4 Grid f\u00fcr GridElements hinzu",
+    "authors": [
+        {
+            "name": "Marco Schmidt",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchmidtWebmedia\\SwBootstrapGridelements\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SchmidtWebmedia\\SwBootstrapGridelements\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "sw_bootstrap_gridelements": "self.version",
+        "typo3-ter/sw-bootstrap-gridelements": "self.version"
+    }
+}
