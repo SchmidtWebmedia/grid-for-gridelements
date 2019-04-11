@@ -1,0 +1,10 @@
+lib.grid_for_gridelements {
+	twoCols < lib.gridelements.defaultGridSetup
+	twoCols {
+
+	}
+}
+
+tt_content.gridelements_pi1.20.10.setup {
+	2cols < lib.grid_for_gridelements.twoCols
+}

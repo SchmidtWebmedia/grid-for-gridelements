@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2018-04-10T00:02:05Z" product-name="grid-for-gridelements">
+        <header/>
+        <body>
+			<trans-unit id="twocols.title">
+				<source>2 columns</source>
+			</trans-unit>
+			<trans-unit id="twocols.description">
+				<source>Add a 2 columns grid</source>
+			</trans-unit>
+
+			<trans-unit id="backend.firstColumn">
+				<source>First column</source>
+			</trans-unit>
+			<trans-unit id="backend.secondColumn">
+				<source>Second column</source>
+			</trans-unit>
+			<trans-unit id="backend.thirdColumn">
+				<source>Third column</source>
+			</trans-unit>
+			<trans-unit id="backend.fourthColumn">
+				<source>Fourth column</source>
+			</trans-unit>
+
+            <trans-unit id="grid.twocols.title">
+				<source>2 columns</source>
+			</trans-unit>
+			<trans-unit id="grid.label.colratio">
+				<source>Grid Ratio</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>
