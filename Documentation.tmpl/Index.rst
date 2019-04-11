@@ -8,13 +8,13 @@
 .. _start:
 
 =============================================================
-Bootstrap 4 for GridElements
+Grid for GridElements
 =============================================================
 
 .. only:: html
 
 	:Classification:
-		sw_bootstrap_gridelements
+		grid_for_gridelements
 
 	:Version:
 		|release|
@@ -23,7 +23,7 @@ Bootstrap 4 for GridElements
 		en
 
 	:Description:
-		Fügt das Bootstrap 4 Grid für GridElements hinzu
+		Für im Backend die Möglichkeit eines Grids für GridElements hinzu. z.B. für Bootstrap 4
 
 	:Keywords:
 		comma,separated,list,of,keywords

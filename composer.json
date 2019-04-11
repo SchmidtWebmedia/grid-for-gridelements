@@ -1,7 +1,7 @@
 {
-    "name": "schmidtwebmedia/sw-bootstrap-gridelements",
+    "name": "schmidtwebmedia/grid-for-gridelements",
     "type": "typo3-cms-extension",
-    "description": "F\u00fcgt das Bootstrap 4 Grid f\u00fcr GridElements hinzu",
+    "description": "F\u00fcr im Backend die M\u00f6glichkeit eines Grids f\u00fcr GridElements hinzu. z.B. f\u00fcr Bootstrap 4",
     "authors": [
         {
             "name": "Marco Schmidt",
@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "SchmidtWebmedia\\SwBootstrapGridelements\\": "Classes"
+            "SchmidtWebmedia\\GridForGridelements\\": "Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SchmidtWebmedia\\SwBootstrapGridelements\\Tests\\": "Tests"
+            "SchmidtWebmedia\\GridForGridelements\\Tests\\": "Tests"
         }
     },
     "replace": {
-        "sw_bootstrap_gridelements": "self.version",
-        "typo3-ter/sw-bootstrap-gridelements": "self.version"
+        "grid_for_gridelements": "self.version",
+        "typo3-ter/grid-for-gridelements": "self.version"
     }
 }

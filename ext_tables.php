@@ -5,7 +5,7 @@ call_user_func(
     function()
     {
 
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('sw_bootstrap_gridelements', 'Configuration/TypoScript', 'Bootstrap 4 for GridElements');
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('grid_for_gridelements', 'Configuration/TypoScript', 'Grid for GridElements');
 
     }
 );

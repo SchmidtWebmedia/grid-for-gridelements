@@ -2,7 +2,7 @@
     "modules": [],
     "properties": {
         "backendModules": [],
-        "description": "F\u00fcgt das Bootstrap 4 Grid f\u00fcr GridElements hinzu",
+        "description": "F\u00fcr im Backend die M\u00f6glichkeit eines Grids f\u00fcr GridElements hinzu. z.B. f\u00fcr Bootstrap 4",
         "emConf": {
             "category": "plugin",
             "custom_category": "",
@@ -15,10 +15,10 @@
             "targetVersion": "9.5.0-9.5.99",
             "version": "1.0.0"
         },
-        "extensionKey": "sw_bootstrap_gridelements",
-        "name": "Bootstrap 4 for GridElements",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
+        "extensionKey": "grid_for_gridelements",
+        "name": "Grid for GridElements",
+        "originalExtensionKey": "sw_bootstrap_gridelements",
+        "originalVendorName": "SchmidtWebmedia",
         "persons": [
             {
                 "company": "Marco Schmidt - Webmedia",
@@ -32,7 +32,7 @@
     },
     "wires": [],
     "log": {
-        "last_modified": "2019-04-10 09:39",
+        "last_modified": "2019-04-11 03:06",
         "extension_builder_version": "9.10.0",
         "be_user": " (1)"
     }

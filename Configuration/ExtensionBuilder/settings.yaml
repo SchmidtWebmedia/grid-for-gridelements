@@ -1,6 +1,6 @@
 #
-# Extension Builder settings for extension sw_bootstrap_gridelements
-# generated 2019-04-10T09:39:00Z
+# Extension Builder settings for extension grid_for_gridelements
+# generated 2019-04-11T15:06:00Z
 #
 # See http://www.yaml.org/spec/1.2/spec.html
 #
@@ -64,7 +64,7 @@ overwriteSettings:
 #  ext_tables.sql: merge
 
 ## use static date attribute in xliff files ##
-#staticDateInXliffFiles: 2019-04-10T09:39:00Z
+#staticDateInXliffFiles: 2019-04-11T15:06:00Z
 
 ## skip docComment (license header) ##
 #skipDocComment

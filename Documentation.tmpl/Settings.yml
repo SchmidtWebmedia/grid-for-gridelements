@@ -9,7 +9,7 @@
 ---
 conf.py:
   copyright: 2019
-  project: Bootstrap 4 for GridElements
+  project: Grid for GridElements
   version: 1.0.0
   release: 1.0.0
   intersphinx_mapping:
@@ -18,8 +18,8 @@ conf.py:
     - null
   latex_documents:
   - - Index
-    - sw_bootstrap_gridelements.tex
-    - Bootstrap 4 for GridElements
+    - grid_for_gridelements.tex
+    - Grid for GridElements
     - Marco Schmidt
     - manual
   latex_elements:
