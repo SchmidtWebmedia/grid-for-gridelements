@@ -4,7 +4,9 @@
 
 You can use this extension for adding an easy to use Grid which are Framework independently.
 
-It's pre configured for Bootstrap 4.
+It's pre configured for Bootstrap 4. 
+
+***Important: The Bootstrap CSS/JS is not included***
 
 ## Features
 
@@ -18,6 +20,18 @@ This work for
 * 3 column grid
 * 4 column grid
 
+### Backend
+
+#### Configuration
+
+![Screenshot Backend Configuration ](https://abload.de/img/bildschirmfoto2019-04g6ks1.png)
+
+#### Backend View
+
+![Screenshot Backend](https://abload.de/img/bildschirmfoto2019-046fks1.png)
+
+### Frontend
+![Screenshot Frontend Output](https://abload.de/img/bildschirmfoto2019-04v2jtg.png)
 
 ## Install
 
