@@ -12,15 +12,15 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Grid for GridElements',
-    'description' => 'Für im Backend die Möglichkeit eines Grids für GridElements hinzu. z.B. für Bootstrap 4',
+    'description' => 'To add an easy to use Grid with GridElements and Framework independently',
     'category' => 'plugin',
     'author' => 'Marco Schmidt',
     'author_email' => 'kontakt@schmidt-webmedia.de',
-    'state' => 'alpha',
+    'state' => 'beta',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.0',
+    'version' => '0.9.0',
     'constraints' => [
         'depends' => [
             'typo3' => '9.5.0-9.5.99',

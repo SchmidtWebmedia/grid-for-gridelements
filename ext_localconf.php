@@ -8,7 +8,16 @@ $iconRegistry->registerIcon(
     \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
     ['source' => 'EXT:grid_for_gridelements/Resources/Public/Icons/twocol.png']
 );
-
+$iconRegistry->registerIcon(
+    'grid-for-gridelements-threecol',
+    \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+    ['source' => 'EXT:grid_for_gridelements/Resources/Public/Icons/threecol.png']
+);
+$iconRegistry->registerIcon(
+    'grid-for-gridelements-fourthcol',
+    \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+    ['source' => 'EXT:grid_for_gridelements/Resources/Public/Icons/fourcol.png']
+);
 
 // Add pageTS config
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:grid_for_gridelements/Configuration/TsConfig/Page/page.tsconfig">');

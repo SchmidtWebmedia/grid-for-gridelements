@@ -19,6 +19,15 @@ class GridController
         return $this->getColumnRatio($config);
     }
 
+    public function getThreeColumnOptions($config) {
+        return $this->getColumnRatio($config);
+    }
+
+    public function getFourColumnOptions($config) {
+        return $this->getColumnRatio($config);
+    }
+
+
     private static function readJSON() {
         if(self::$GridConfiguration === null) {
             $path = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('grid_for_gridelements', 'gridConfig');
@@ -32,7 +41,7 @@ class GridController
         self::readJSON();
         $fieldName = $config['field'];
         $columnRatioList = [];
-
+        echo $fieldName;
         foreach (self::$GridConfiguration['cols'][0][$fieldName] as $key => $value) {
             $columnRatioList[] = [$value['label'], $key];
         }

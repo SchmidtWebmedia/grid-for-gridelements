@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <col>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang_db.xlf:grid.fourcols.title</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el type="array">
+                    <fourthcol type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang_db.xlf:grid.label.colratio</label>
+                            <config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>SchmidtWebmedia\GridForGridElements\Controller\GridController->getFourColumnOptions</itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </fourthcol>
+                </el>
+            </ROOT>
+        </col>
+    </sheets>
+</T3DataStructure>
