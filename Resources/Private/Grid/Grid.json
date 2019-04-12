@@ -1,0 +1,93 @@
+{
+  "cols": [
+    {
+      "twocol": [
+        {
+          "label": "auto",
+          "class": [
+            "col-12 col-md",
+            "col-12 col-md"
+          ]
+        },
+        {
+          "label": "25/75",
+          "class": [
+            "col-12 col-md-3",
+            "col-12 col-md-9"
+          ]
+        },
+        {
+          "label": "50/50",
+          "class": [
+            "col-12 col-md-6",
+            "col-12 col-md-6"
+          ]
+        },
+        {
+          "label": "75/25",
+          "class": [
+            "col-12 col-md-9",
+            "col-12 col-md-3"
+          ]
+        },
+        {
+          "label": "33/66",
+          "class": [
+            "col-12 col-md-4",
+            "col-12 col-md-8"
+          ]
+        },
+        {
+          "label": "66/33",
+          "class": [
+            "col-12 col-md-8",
+            "col-12 col-md-4"
+          ]
+        }
+      ],
+      "threecol": [
+        {
+          "label": "auto",
+          "class": [
+            "col-12 col-md",
+            "col-12 col-md",
+            "col-12 col-md"
+          ]
+        },
+        {
+          "label": "33/33/33",
+          "class": [
+            "col-12 col-md-4",
+            "col-12 col-md-4",
+            "col-12 col-md-4"
+          ]
+        }
+      ],
+      "fourthcol": [
+        {
+          "label": "auto",
+          "class": [
+            "col-12 col-sm-6 col-md",
+            "col-12 col-sm-6 col-md",
+            "col-12 col-sm-6 col-md",
+            "col-12 col-sm-6 col-md"
+          ]
+        },
+        {
+          "label": "25/25/25/25",
+          "class": [
+            "col-12 col-sm-6 col-md-3",
+            "col-12 col-sm-6 col-md-3",
+            "col-12 col-sm-6 col-md-3",
+            "col-12 col-sm-6 col-md-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "row": [
+    {
+      "class": "row"
+    }
+  ]
+}

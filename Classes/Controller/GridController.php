@@ -2,8 +2,13 @@
 
 namespace SchmidtWebmedia\GridForGridElements\Controller;
 
+use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
+
 class GridController
 {
+
+    private static $GridConfiguration;
+
 
     /**
      * @param $config
@@ -14,24 +19,22 @@ class GridController
         return $this->getColumnRatio($config);
     }
 
+    private static function readJSON() {
+        if(self::$GridConfiguration === null) {
+            $path = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('grid_for_gridelements', 'gridConfig');
+            $jsonInput = file_get_contents(\TYPO3\CMS\Core\Utility\GeneralUtility::getFileAbsFileName($path));
+            self::$GridConfiguration = json_decode($jsonInput, true);
+        }
+    }
+
 
     private function getColumnRatio($config) {
+        self::readJSON();
         $fieldName = $config['field'];
-        switch($fieldName) {
-            case 'twocol':
-                $columnRatioList = [
-                  ['auto', 0],
-                  ['25/75', 1],
-                  ['50/50', 2],
-                  ['75/25', 3],
-                  ['33/66', 4],
-                  ['66/33', 5],
-                  ['66/33', 6],
-                ];
-                break;
-            default:
-                $columnRatioList = [];
-                break;
+        $columnRatioList = [];
+
+        foreach (self::$GridConfiguration['cols'][0][$fieldName] as $key => $value) {
+            $columnRatioList[] = [$value['label'], $key];
         }
 
         $config['items'] = array_merge($config['items'], $columnRatioList);

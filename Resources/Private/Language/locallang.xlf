@@ -9,6 +9,18 @@
 			<trans-unit id="twocols.description">
 				<source>Add a 2 columns grid</source>
 			</trans-unit>
+			<trans-unit id="threecols.title">
+				<source>3 columns</source>
+			</trans-unit>
+			<trans-unit id="threecols.description">
+				<source>Add a 3 columns grid</source>
+			</trans-unit>
+			<trans-unit id="fourcols.title">
+				<source>4 columns</source>
+			</trans-unit>
+			<trans-unit id="fourcols.description">
+				<source>Add a 4 columns grid</source>
+			</trans-unit>
 
 			<trans-unit id="backend.firstColumn">
 				<source>First column</source>

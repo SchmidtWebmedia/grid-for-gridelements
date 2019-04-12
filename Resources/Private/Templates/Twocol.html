@@ -1,10 +1,8 @@
-<f:debug>{data}</f:debug>
-
-<div class="row">
-	<div class="col">
-		<f:format.raw>{data.tx_gridelements_view_columns.101}</f:format.raw>
-	</div>
-	<div class="col">
-		<f:format.raw>{data.tx_gridelements_view_columns.102}</f:format.raw>
-	</div>
-</div>
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:grid="SchmidtWebmedia\GridForGridElements\ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default"/>
+	<f:section name="Col">
+		<div class="{grid:grid(type: 'row')}">
+			<f:render partial="Default" section="Column" arguments="{data: data, children: children.1}"/>
+		</div>
+	</f:section>
+</html>
