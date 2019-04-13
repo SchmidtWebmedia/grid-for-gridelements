@@ -24,7 +24,7 @@ This work for
 
 #### Configuration
 
-![Screenshot Backend Configuration ](https://abload.de/img/bildschirmfoto2019-04g6ks1.png)
+![Screenshot Backend Configuration ](https://abload.de/img/bildschirmfoto2019-04vdkuq.png)
 
 #### Backend View
 
