@@ -2,6 +2,9 @@
 <f:section name="Column">
 	<f:for each="{children}" as="column" key="columnNumber" iteration="iterator">
 		<div class="{grid:grid(type: 'col', layout:'{data.tx_gridelements_backend_layout}', colType:'{data.pi_flexform.data.col.lDEF.{data.tx_gridelements_backend_layout}.vDEF}', colIndex:'{iterator.index}')}">
+			<f:if condition="!{column}">
+				<f:cObject typoscriptObjectPath="lib.emptyColDropzone" data="{columnNumber}"></f:cObject>
+			</f:if>
 			<f:for each="{column}" as="col" iteration="index">
 				<f:cObject typoscriptObjectPath="tt_content.{col.data.CType}" data="{col.data}" table="tt_content"/>
 			</f:for>
