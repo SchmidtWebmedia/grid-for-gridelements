@@ -1,0 +1,8 @@
+plugin.tx_frontend_editing {
+	settings {
+		dropzoneDefaultParams {
+			tx_gridelements_container = 0
+			tx_gridelements_columns = 0
+		}
+	}
+}

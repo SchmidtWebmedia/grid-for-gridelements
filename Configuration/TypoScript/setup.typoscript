@@ -1,23 +1,3 @@
-[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('gridelements')]
-    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript">
-[global]
-
-lib.gridelements.defaultGridSetup {
-    layoutRootPaths {
-        20 = EXT:grid_for_gridelements/Resources/Private/Layouts/
-    }
-
-    partialRootPaths {
-        20 = EXT:grid_for_gridelements/Resources/Private/Partials/
-    }
-
-    templateRootPaths {
-        20 = EXT:grid_for_gridelements/Resources/Private/Templates/
-    }
-}
-
-tt_content.gridelements_pi1 < lib.gridelements.defaultGridSetup
-
 [globalVar = TSFE : beUserLogin > 0]
     page.includeJS {
         feeditext = EXT:grid_for_gridelements/Resources/Public/JavaScript/FeeditExtend.js
@@ -44,3 +24,31 @@ tt_content.gridelements_pi1 < lib.gridelements.defaultGridSetup
         }
     }
 [global]
+
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('gridelements')]
+    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript">
+[global]
+
+tt_content.gridelements_pi1 =< lib.contentElement
+tt_content.gridelements_pi1 {
+    templateName = Generic
+    variables {
+        content =< tt_content.gridelements_view
+    }
+}
+
+lib.gridelements.defaultGridSetup {
+    layoutRootPaths {
+        20 = EXT:grid_for_gridelements/Resources/Private/Layouts/
+    }
+
+    partialRootPaths {
+        20 = EXT:grid_for_gridelements/Resources/Private/Partials/
+    }
+
+    templateRootPaths {
+        20 = EXT:grid_for_gridelements/Resources/Private/Templates/
+    }
+}
+
+tt_content.gridelements_pi1 < lib.gridelements.defaultGridSetup

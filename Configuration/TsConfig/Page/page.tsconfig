@@ -1,1 +1,2 @@
+tx_gridelements.overruleRecords = 1
 @import 'EXT:grid_for_gridelements/Configuration/TsConfig/Page/Grid/*.tsconfig'

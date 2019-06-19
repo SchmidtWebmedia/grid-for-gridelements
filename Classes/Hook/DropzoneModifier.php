@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace SchmidtWebmedia\GridForGridElements\Hook;
 
+use function GuzzleHttp\default_ca_bundle;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\FrontendEditing\EditingPanel\FrontendEditingDropzoneModifier;
 use TYPO3\CMS\FrontendEditing\Service\ContentEditableWrapperService;
@@ -32,7 +33,6 @@ class DropzoneModifier implements FrontendEditingDropzoneModifier
         array $dataArr,
         string &$content
     ): bool {
-        echo 'TEST AUSGABE';
         // CE in gridelement
         if ($dataArr['tx_gridelements_container']) {
 
@@ -86,48 +86,58 @@ class DropzoneModifier implements FrontendEditingDropzoneModifier
             $wrapperService = GeneralUtility::makeInstance(ContentEditableWrapperService::class);
 
             // Find empty columns
-            $columns = $dataArr['tx_gridelements_view_columns'];
-            foreach ($columns as $key => $column) {
-                if($dataArr['tx_gridelements_view_column_' . $key] == ''){
-
-                    $params = [
-                        'tx_gridelements_container' => $dataArr['uid'],
-                        'tx_gridelements_columns' => $key
-                    ];
-
-                    $dropzoneOnly = $wrapperService->wrapContentWithDropzone(
-                        $table,
-                        0,
-                        '',
-                        -1,
-                        $params,
-                        true
-                    );
-                    $dropzoneOnly = str_replace(
-                        [
-                            'ondragstart="window.parent.F.dragCeStart(event)"',
-                            '###GRID_DATA###'
-                        ],
-                        [
-                            'ondragstart="window.parent.F.dragCeInsideGridStart(event)"',
-                            sprintf('data-params="%s"', GeneralUtility::implodeArrayForUrl('', $params))
-                        ],
-                        $dropzoneOnly
-                    );
-
-                    $content = str_replace(
-                        [
-                            '<!--###DATA_EMPTY_GRID_DROPZONE_' . $key . '###-->'
-                        ],
-                        [
-                            $dropzoneOnly
-                        ],
-                        $content
-                    );
-
-                }
+            switch ($dataArr['tx_gridelements_backend_layout']) {
+                case 'twocol':
+                    $cols = 2;
+                    break;
+                case 'threecol':
+                    $cols = 3;
+                    break;
+                case 'fourthcol':
+                    $cols = 4;
+                    break;
+                default:
+                    $cols = 0;
+                    break;
             }
 
+            for($i = 1; $i <= $cols; $i++) {
+                $key = '10'.$i;
+                $params = [
+                    'tx_gridelements_container' => $dataArr['uid'],
+                    'tx_gridelements_columns' => $key
+                ];
+
+                $dropzoneOnly = $wrapperService->wrapContentWithDropzone(
+                    $table,
+                    0,
+                    '',
+                    -1,
+                    $params,
+                    true
+                );
+                $dropzoneOnly = str_replace(
+                    [
+                        'ondragstart="window.parent.F.dragCeStart(event)"',
+                        '###GRID_DATA###'
+                    ],
+                    [
+                        'ondragstart="window.parent.F.dragCeInsideGridStart(event)"',
+                        sprintf('data-params="%s"', GeneralUtility::implodeArrayForUrl('', $params))
+                    ],
+                    $dropzoneOnly
+                );
+
+                $content = str_replace(
+                    [
+                        '<!--###DATA_EMPTY_GRID_DROPZONE_' . $key . '###-->'
+                    ],
+                    [
+                        $dropzoneOnly
+                    ],
+                    $content
+                );
+            }
         }
         return false;
     }
