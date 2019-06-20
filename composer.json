@@ -1,0 +1,25 @@
+{
+    "name": "schmidtwebmedia/grid-for-gridelements",
+    "type": "typo3-cms-extension",
+    "description": "To add an easy to use grid with GridElements and Framework independently. Pre defined are Bootstrap v4",
+    "authors": [
+        {
+            "name": "Marco Schmidt",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.9.100",
+    "require": {
+        "typo3/cms-core": "^9.5",
+        "gridelements": "^9.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SchmidtWebmedia\\GridForGridelements\\": "Classes"
+        }
+    },
+    "replace": {
+        "grid_for_gridelements": "self.version",
+        "typo3-ter/grid-for-gridelements": "self.version"
+    }
+}
