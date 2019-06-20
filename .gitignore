@@ -1,6 +1,4 @@
 /vendor/
 .idea
-/Classes/Controller/FlexFormController.php
 /Configuration/ExtensionBuilder/
 /ExtensionBuilder.json
-/composer.json
