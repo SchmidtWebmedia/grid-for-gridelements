@@ -23,7 +23,10 @@ $iconRegistry->registerIcon(
 // Add pageTS config
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:grid_for_gridelements/Configuration/TsConfig/Page/page.tsconfig">');
 
-/***************
- * Hook for frontend editing
- */
-$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['frontend_editing']['FrontendEditingPanel']['dropzoneModifiers'][] = \SchmidtWebmedia\GridForGridElements\Hook\DropzoneModifier::class;
+if(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('frontend_editing')) {
+    /***************
+     * Hook for frontend editing
+     */
+    $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['frontend_editing']['FrontendEditingPanel']['dropzoneModifiers'][] = \SchmidtWebmedia\GridForGridElements\Hook\DropzoneModifier::class;
+}
+

@@ -27,7 +27,9 @@ $EM_CONF[$_EXTKEY] = [
             'gridelements' => ''
         ],
         'conflicts' => [],
-        'suggests' => [],
+        'suggests' => [
+            'frontend_editing' => '1.5.0'
+        ],
     ],
     'autoload' => [
         'psr-4' => ['SchmidtWebmedia\\GridForGridElements\\' => 'Classes']

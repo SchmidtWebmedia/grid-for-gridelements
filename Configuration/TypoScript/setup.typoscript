@@ -1,4 +1,4 @@
-[globalVar = TSFE : beUserLogin > 0]
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('frontend_editing')] && [globalVar = TSFE : beUserLogin > 0]
     page.includeJS {
         feeditext = EXT:grid_for_gridelements/Resources/Public/JavaScript/FeeditExtend.js
     }
@@ -23,11 +23,11 @@
             3001 = /###DATA_EMPTY_GRID_DROPZONE_/usi
         }
     }
-[global]
+[end]
 
 [userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('gridelements')]
     <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript">
-[global]
+[end]
 
 tt_content.gridelements_pi1 =< lib.contentElement
 tt_content.gridelements_pi1 {
