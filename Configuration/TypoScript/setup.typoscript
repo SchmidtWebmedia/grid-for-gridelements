@@ -1,3 +1,4 @@
+lib.emptyColDropzone = TEXT
 [userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('frontend_editing')] && [globalVar = TSFE : beUserLogin > 0]
     page.includeJS {
         feeditext = EXT:grid_for_gridelements/Resources/Public/JavaScript/FeeditExtend.js
