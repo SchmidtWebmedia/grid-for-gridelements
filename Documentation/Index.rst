@@ -14,23 +14,23 @@ Extension Name
 =============================================================
 
 :Version:
-   |release|
+   1.0.0
 
 :Language:
    en
 
 :Authors:
-   Your name
+   Marco Schmidt
 
 :Email:
-   you@domain.tld
+   typo@schmidt-webmedia.de
 
 :License:
    This extension documentation is published under the
    `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons)
    license
 
-{extension.description}
+To add an easy to use grid with GridElements. It's Framework independent. Prepared for Bootstrap v4.
 
 **TYPO3**
 
