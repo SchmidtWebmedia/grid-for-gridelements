@@ -7,53 +7,26 @@
 Introduction
 ============
 
-
-.. tip::
-
-   New to reStructuredText and Sphinx?
-
-   Get an introduction:
-   https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/Index.html
-
-   Use this cheat sheet as reference:
-   https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html
-
 .. _what-it-does:
 
 What does it do?
 ================
 
-The aim of this chapter is to provide a general overview of your extension.
-
-* What does it do?
-* What problems does it solve?
-* Who is the target audience?
-
-This chapter should provide information that will help inform 
-potential users and assist them in deciding if they should 
-install and use this extension.
-
-.. important::
-
-   Don't forget to repeat your extension's version number in the
-   :file:`Settings.cfg` file, in the :code:`release` property. It will be
-   automatically picked up on the cover page by the :code:`|release|`
-   substitution.
-
+This extension will add an easy to use grid with GridElements. It's Framework independent. 
+It means you can config this extension with other Frameworks like Bootstrap, Foundation, ...
+This version is prepared for Bootstrap v4.
 
 .. _screenshots:
 
 Screenshots
 ===========
 
-This chapter should help people understand how the extension works. Remove it
-if it is not relevant.
-
-.. figure:: ../Images/IntroductionPackage.png
+.. figure:: ../Images/backend.png
    :class: with-shadow
    :alt: Introduction Package
    :width: 300px
 
-   Introduction Package just after installation (caption of the image)
-
-How the Frontend of the Introduction Package looks like just after installation (legend of the image)
+.. figure:: ../Images/frontend.png
+   :class: with-shadow
+   :alt: Introduction Package
+   :width: 300px
