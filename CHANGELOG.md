@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0.0] - 2019-06-21
+- Optimized grid JSON
+
 ## [0.9.101] - 2019-06-21
 
 ### Changed
