@@ -7,7 +7,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Optimized grid JSON
 
-
 ## [0.9.101] - 2019-06-21
 ### Changed
 - Bugfix if BE User not logged in
@@ -15,5 +14,3 @@ All notable changes to this project will be documented in this file.
 ## [0.9.100] - 2019-06-20
 ### Added
 - Frontend Editing Support
-
-### Changed
