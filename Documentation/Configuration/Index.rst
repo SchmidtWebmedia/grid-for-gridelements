@@ -3,23 +3,17 @@
 
 .. _configuration:
 
+Configuration 
 =============
-Configuration
-=============
 
-Target group: **Developers, Integrators**
+.. only:: html
 
-For a basically usage with Bootstrap v4 you don't need much configuration.
+	This chapter describes how to config this extension.
 
-Static Template
-===============
+.. toctree::
+	:maxdepth: 5
+	:titlesonly:
 
-Include following static templates:
-
-.. figure:: ../Images/static_template.png
-   :class: with-shadow
-   :alt: Static template
-   :width: 300px
-
-
-
+	Basic/Index
+    CustomFramework/Index
+	FrontendEditing/Index
