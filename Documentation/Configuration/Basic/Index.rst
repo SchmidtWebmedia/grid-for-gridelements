@@ -11,7 +11,7 @@ Static Template
 
 Include following static templates:
 
-.. figure:: ../Images/static_template.png
+.. figure:: ../../Images/static_template.png
    :class: with-shadow
    :alt: Static template
    :width: 300px
