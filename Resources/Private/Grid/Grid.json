@@ -67,19 +67,19 @@
         {
           "label": "auto",
           "class": [
-            "col-12 col-sm-6 col-md",
-            "col-12 col-sm-6 col-md",
-            "col-12 col-sm-6 col-md",
-            "col-12 col-sm-6 col-md"
+            "col-12 col-sm-6 col-md-6 col-lg",
+            "col-12 col-sm-6 col-md-6 col-lg",
+            "col-12 col-sm-6 col-md-6 col-lg",
+            "col-12 col-sm-6 col-md-6 col-lg"
           ]
         },
         {
           "label": "25/25/25/25",
           "class": [
-            "col-12 col-sm-6 col-md-3",
-            "col-12 col-sm-6 col-md-3",
-            "col-12 col-sm-6 col-md-3",
-            "col-12 col-sm-6 col-md-3"
+            "col-12 col-sm-6 col-md-6 col-lg-3",
+            "col-12 col-sm-6 col-md-6 col-lg-3",
+            "col-12 col-sm-6 col-md-6 col-lg-3",
+            "col-12 col-sm-6 col-md-6 col-lg-3"
           ]
         }
       ]
