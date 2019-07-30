@@ -10,7 +10,7 @@
 .. _start:
 
 =============================================================
-Extension Name
+Grid for Gridelements
 =============================================================
 
 :Version:
@@ -68,12 +68,7 @@ To add an easy to use grid with GridElements. It's Framework independent. Prepar
    :maxdepth: 3
    :hidden:
 
-
    Introduction/Index
-   Editor/Index
-   Installation/Index
    Configuration/Index
-   Developer/Index
-   KnownProblems/Index
    Sitemap
 

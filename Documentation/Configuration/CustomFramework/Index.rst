@@ -8,18 +8,20 @@ Custom Framework configuration
 If you don't use Bootstrap v4 or you need to customize the prepared grid ratio then you have to change the grid.json file.
 Following steps will describe how to do it.
 
-Step 1
-""""""
+Copy Grid.json
+^^^^^^^^^^^^^^
 
 Copy the Grid.json to your resources folder. The Grid.json is located in: *Resources/Private/Grid/Grid.json*
 
-Step 2
-""""""
+Make your changes
+^^^^^^^^^^^^^^^^^
 
 Make your changes in your own Grid.json file. 
+
 .. important:: Please note that the main structure remains the same.
 
 .. code-block:: json
+
     {
         "cols": [
             {
@@ -63,8 +65,8 @@ Make your changes in your own Grid.json file.
         ]
     }
 
-Step 3
-""""""
+Change extension settings
+^^^^^^^^^^^^^^^^^^^^^^^^^
 The next step will be change the path of Grid.json in the extension settings. 
 This you will find in TYPO3 backend. 
 
@@ -73,7 +75,7 @@ This you will find in TYPO3 backend.
    :alt: Extension Settings
    :width: 300px
 
-Step 4
-""""""
+Clear cache
+^^^^^^^^^^^
 
 Clear all cache and be happy with your customized grid

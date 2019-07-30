@@ -22,14 +22,16 @@ This version is prepared for Bootstrap v4.
 Features
 ========
 As a TYPO3 you have to choose between thre grid options:
-2 column grid
-3 column grid
-4 column grid
 
-Regarding the framework configuration you can choose for example between
-50%/50%
-25%/75%
-75%/25%
+- 2 column grid
+- 3 column grid
+- 4 column grid
+
+Regarding the framework configuration you can choose for example between:
+
+- 50%/50%
+- 25%/75%
+- 75%/25%
 
 layouts in a 2 column grid.
 

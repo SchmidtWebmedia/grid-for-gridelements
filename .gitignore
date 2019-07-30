@@ -2,3 +2,5 @@
 .idea
 /Configuration/ExtensionBuilder/
 /ExtensionBuilder.json
+/Documentation-GENERATED-temp
+docker-compose.yaml
