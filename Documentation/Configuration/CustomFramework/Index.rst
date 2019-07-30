@@ -68,7 +68,7 @@ Step 3
 The next step will be change the path of Grid.json in the extension settings. 
 This you will find in TYPO3 backend. 
 
-.. figure:: ../Images/extension_seetings.png
+.. figure:: ../../Images/extension_seetings.png
    :class: with-shadow
    :alt: Extension Settings
    :width: 300px

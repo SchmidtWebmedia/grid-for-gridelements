@@ -14,6 +14,6 @@ Configuration
 	:maxdepth: 5
 	:titlesonly:
 
-	Basic/Index
+    Basic/Index
     CustomFramework/Index
-	FrontendEditing/Index
+    FrontendEditing/Index
