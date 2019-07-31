@@ -40,7 +40,7 @@ To add an easy to use grid with GridElements. It's Framework independent. Prepar
 
 **Community Documentation:**
 
-   This documentation is community documentation for the TYPO3 extension {extension.name}
+   This documentation is community documentation for the TYPO3 extension Grid for Gridelements
 
    It is maintained as part of this third party extension.
 
@@ -49,14 +49,16 @@ To add an easy to use grid with GridElements. It's Framework independent. Prepar
 
 **Extension Manual**
 
-   This documentation is for the TYPO3 extension <extkey>.
-
-
+   This documentation is for the TYPO3 extension grid_for_gridelements.
 
 **For Contributors**
 
    You are welcome to help improve this guide. Just click on "Edit me on GitHub"
    on the top right to submit your change request.
+
+**For Users**
+
+   If you are happy with this extension or you need a new future please let me know. E-Mail adress at the top.
 
 
 **Sitemap:**
