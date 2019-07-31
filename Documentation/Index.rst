@@ -45,7 +45,7 @@ To add an easy to use grid with GridElements. It's Framework independent. Prepar
    It is maintained as part of this third party extension.
 
    If you find an error or something is missing, please:
-   `Report a Problem <https://github.com/TYPO3-Documentation/TYPO3CMS-Example-ExtensionManual/issues/new>`__
+   `Report a Problem <https://github.com/SchmidtWebmedia/grid-for-gridelements/issues/new>`__
 
 **Extension Manual**
 
