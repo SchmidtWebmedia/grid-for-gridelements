@@ -70,5 +70,6 @@ To add an easy to use grid with GridElements. It's Framework independent. Prepar
 
    Introduction/Index
    Configuration/Index
+   Changelog/Index
    Sitemap
 
