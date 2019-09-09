@@ -11,4 +11,19 @@
 		</div>
 	</f:for>
 </f:section>
+
+<f:section name="Row">
+	<div id="c{data.uid}"
+		 class="grid-container ge-container frame frame-{data.frame_class} frame-type-{data.CType} frame-layout-{data.layout} {f:if(
+					condition: data.space_before_class,
+					then: ' frame-space-before-{data.space_before_class}'
+				)}{f:if(
+					condition: data.space_after_class,
+					then: ' frame-space-after-{data.space_after_class}'
+				)}">
+		<div class="{grid:grid(type: 'row')}">
+			<f:render partial="Default" section="Column" arguments="{data: data, children: children.1}"/>
+		</div>
+	</div>
+</f:section>
 </html>
