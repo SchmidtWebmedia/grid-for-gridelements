@@ -15,6 +15,10 @@ class GridController
      *
      * @return mixed
      */
+	public function getOneColumnOptions($config) {
+		return $this->getColumnRatio($config);
+	}	
+	
     public function getTwoColumnOptions($config) {
         return $this->getColumnRatio($config);
     }
@@ -41,11 +45,14 @@ class GridController
         self::readJSON();
         $fieldName = $config['field'];
         $columnRatioList = [];
-        echo $fieldName;
-        foreach (self::$GridConfiguration['cols'][0][$fieldName] as $key => $value) {
-            $columnRatioList[] = [$value['label'], $key];
-        }
-
+		if(isset(self::$GridConfiguration['cols'][0][$fieldName])) {
+			foreach (self::$GridConfiguration['cols'][0][$fieldName] as $key => $value) {
+				$columnRatioList[] = [$value['label'], $key];
+			}
+		} else {
+			$columnRatioList[] = ['missing config', 0];
+		}
+        
         $config['items'] = array_merge($config['items'], $columnRatioList);
         return $config;
     }

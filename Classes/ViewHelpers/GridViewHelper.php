@@ -27,13 +27,21 @@ class GridViewHelper extends AbstractViewHelper
         self::readJSON();
         switch($this->arguments['type']) {
             case 'row':
-                return self::$GridConfiguration['row'][0]['class'];
+				if(isset(self::$GridConfiguration['row'][0]['class'])) {
+					return self::$GridConfiguration['row'][0]['class'];
+				} else {
+					return 'row';
+				}
                 break;
             case 'col':
                 $layout = $this->arguments['layout'];
                 $ratio = $this->arguments['colType'];
                 $index = $this->arguments['colIndex'];
-                return self::$GridConfiguration['cols'][0][$layout][$ratio]['class'][$index];
+				if(isset(self::$GridConfiguration['cols'][0][$layout][$ratio]['class'][$index])) {
+					return self::$GridConfiguration['cols'][0][$layout][$ratio]['class'][$index];
+				} else {
+						return 'col';
+                }
                 break;
         }
 

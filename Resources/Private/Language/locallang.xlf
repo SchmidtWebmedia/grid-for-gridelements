@@ -3,6 +3,12 @@
     <file source-language="en" datatype="plaintext" original="messages" date="2018-04-10T00:02:05Z" product-name="grid-for-gridelements">
         <header/>
         <body>
+			<trans-unit id="onecols.title">
+				<source>1 column</source>
+			</trans-unit>
+			<trans-unit id="onecols.description">
+				<source>Add a 1 column grid</source>
+			</trans-unit>
 			<trans-unit id="twocols.title">
 				<source>2 columns</source>
 			</trans-unit>

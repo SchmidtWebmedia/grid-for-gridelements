@@ -1,6 +1,20 @@
 {
   "cols": [
     {
+	  "onecol": [
+		{
+			"label": "auto",
+			"class": [
+				"col"
+			]
+		},
+		{
+			"label": "100",
+			"class": [
+				"col-12"
+			]
+		}
+	  ],
       "twocol": [
         {
           "label": "auto",

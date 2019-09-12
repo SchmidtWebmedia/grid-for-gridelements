@@ -5,6 +5,10 @@ if (!defined('TYPO3_MODE')) { die('Access denied.'); }
 // register icons
 $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 $iconRegistry->registerIcon(
+    'grid-for-gridelements-onecol',
+    \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+    ['source' => 'EXT:grid_for_gridelements/Resources/Public/Icons/onecol.png']
+);$iconRegistry->registerIcon(
     'grid-for-gridelements-twocol',
     \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
     ['source' => 'EXT:grid_for_gridelements/Resources/Public/Icons/twocol.png']
