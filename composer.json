@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SchmidtWebmedia\\GridForGridelements\\": "Classes"
+            "SchmidtWebmedia\\GridForGridElements\\": "Classes/"
         }
     },
     "replace": {
