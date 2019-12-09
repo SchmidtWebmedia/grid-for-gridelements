@@ -21,8 +21,9 @@ This version is prepared for Bootstrap v4.
 
 Features
 ========
-As a TYPO3 you have to choose between thre grid options:
+As a TYPO3 you have to choose between four grid options:
 
+- 1 column grid
 - 2 column grid
 - 3 column grid
 - 4 column grid

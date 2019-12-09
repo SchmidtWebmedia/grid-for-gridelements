@@ -25,6 +25,15 @@ Make your changes in your own Grid.json file.
     {
         "cols": [
             {
+			"onecol": [
+                {
+                "label": "",
+                "class": [
+                    "",
+                    ""
+                ]
+                }
+            ],
             "twocol": [
                 {
                 "label": "",

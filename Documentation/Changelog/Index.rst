@@ -6,6 +6,19 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[1.2.0] - 2019-09-12
+^^^^^^^^^^^^^^^^^^^^
+**Added**
+
+- One Column Layout
+
+
+[1.1.0] - 2019-09-09
+^^^^^^^^^^^^^^^^^^^^
+**Added**
+
+- TYPO3 core CSS classes for layout and spacing 
+
 [1.0.0] - 2019-07-30
 ^^^^^^^^^^^^^^^^^^^^
 **Added**
