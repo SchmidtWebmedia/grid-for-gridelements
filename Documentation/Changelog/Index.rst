@@ -6,6 +6,13 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+
+[1.2.1] - 2019-12-10
+^^^^^^^^^^^^^^^^^^^^
+**Fixed**
+
+- composer.json 
+
 [1.2.0] - 2019-09-12
 ^^^^^^^^^^^^^^^^^^^^
 **Added**
