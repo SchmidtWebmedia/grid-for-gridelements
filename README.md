@@ -1,5 +1,8 @@
 # Grid for GridElements
 
+[![TYPO3](https://img.shields.io/badge/TYPO3-9.5%20LTS-green)](https://typo3.org/)
+[![GridElements](https://img.shields.io/badge/Grid%20Elements-9-green)](https://extensions.typo3.org/extension/gridelements/)
+
 ## Description
 
 You can use this extension for adding an easy to use Grid which are Framework independently.
