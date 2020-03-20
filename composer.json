@@ -26,7 +26,9 @@
         }
     },
     "replace": {
-        "grid_for_gridelements": "self.version",
         "typo3-ter/grid-for-gridelements": "self.version"
+    },
+    "extra": {
+        "extension-key": "grid_for_gridelements"
     }
 }
