@@ -1,7 +1,7 @@
 <?php
-namespace SchmidtWebmedia\GridForGridelements\ExpressionLanguage;
+namespace SchmidtWebmedia\GridForGridElements\ExpressionLanguage;
 
-use SchmidtWebmedia\GridForGridelements\TypoScript\ConditionFunctionsProvider;
+use SchmidtWebmedia\GridForGridElements\TypoScript\ConditionFunctionsProvider;
 use TYPO3\CMS\Core\ExpressionLanguage\AbstractProvider;
 
 class GridTypoScriptConditionProvider extends AbstractProvider

@@ -1,6 +1,6 @@
 <?php
 
-namespace SchmidtWebmedia\GridForGridelements\TypoScript;
+namespace SchmidtWebmedia\GridForGridElements\TypoScript;
 
 use Symfony\Component\ExpressionLanguage\ExpressionFunction;
 use Symfony\Component\ExpressionLanguage\ExpressionFunctionProviderInterface;

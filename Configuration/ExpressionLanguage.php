@@ -2,6 +2,6 @@
 
 return [
     'typoscript' => [
-        \SchmidtWebmedia\GridForGridelements\ExpressionLanguage\GridTypoScriptConditionProvider::class
+        \SchmidtWebmedia\GridForGridElements\ExpressionLanguage\GridTypoScriptConditionProvider::class
     ]
 ];
