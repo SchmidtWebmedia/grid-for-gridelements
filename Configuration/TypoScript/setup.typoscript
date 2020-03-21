@@ -1,5 +1,6 @@
 lib.emptyColDropzone = TEXT
-[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('frontend_editing')] && [globalVar = TSFE : beUserLogin > 0]
+
+[ext.isLoaded('frontend_editing') && getTSFE().beUserLogin]
     page.includeJS {
         feeditext = EXT:grid_for_gridelements/Resources/Public/JavaScript/FeeditExtend.js
     }
@@ -24,11 +25,9 @@ lib.emptyColDropzone = TEXT
             3001 = /###DATA_EMPTY_GRID_DROPZONE_/usi
         }
     }
-[end]
+[END]
 
-[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('gridelements')]
-    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript">
-[end]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript" condition="ext.isLoaded('gridelements')">
 
 tt_content.gridelements_pi1 =< lib.contentElement
 tt_content.gridelements_pi1 {

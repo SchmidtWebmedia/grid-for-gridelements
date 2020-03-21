@@ -6,12 +6,17 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[1.3.0] - 2020-03-21
+^^^^^^^^^^^^^^^^^^^^
+**Fixed**
+
+- Deprecated warnings regarding Symfony syntax
 
 [1.2.1] - 2019-12-10
 ^^^^^^^^^^^^^^^^^^^^
 **Fixed**
 
-- composer.json 
+- composer.json
 
 [1.2.0] - 2019-09-12
 ^^^^^^^^^^^^^^^^^^^^
@@ -24,7 +29,7 @@ All notable changes to this project will be documented in this file.
 ^^^^^^^^^^^^^^^^^^^^
 **Added**
 
-- TYPO3 core CSS classes for layout and spacing 
+- TYPO3 core CSS classes for layout and spacing
 
 [1.0.0] - 2019-07-30
 ^^^^^^^^^^^^^^^^^^^^
