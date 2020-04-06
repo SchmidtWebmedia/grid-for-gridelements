@@ -43,6 +43,11 @@ This work for
 3) Include the static template
 4) Be happy with an easy way to use Grids in TYPO3 :)
 
+### Composer install:
+```bash
+composer require schmidtwebmedia/grid-for-gridelements
+```
+
 ## Customizing
 
 You can customize the output in frontend and change the framework or add more options for Grid ratio.
@@ -96,5 +101,4 @@ Please use following structure of json file:
     }
   ]
 }
-
-
+```
