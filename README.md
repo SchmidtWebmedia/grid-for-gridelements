@@ -1,5 +1,7 @@
 # Grid for GridElements
 
+Version 2.X.X
+
 [![TYPO3](https://img.shields.io/badge/TYPO3-10.4%20LTS-green)](https://typo3.org/)
 [![GridElements](https://img.shields.io/badge/Grid%20Elements-10-green)](https://extensions.typo3.org/extension/gridelements/)
 
