@@ -27,7 +27,7 @@ lib.emptyColDropzone = TEXT
     }
 [END]
 
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessing/setup.typoscript" extensions="typoscript" condition="ext.isLoaded('gridelements')">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gridelements/Configuration/TypoScript/DataProcessingLibContentElement/setup.typoscript" extensions="typoscript" condition="ext.isLoaded('gridelements')">
 
 tt_content.gridelements_pi1 =< lib.contentElement
 tt_content.gridelements_pi1 {
@@ -35,9 +35,6 @@ tt_content.gridelements_pi1 {
     variables {
         content =< tt_content.gridelements_view
     }
-}
-
-lib.gridelements.defaultGridSetup {
     layoutRootPaths {
         20 = EXT:grid_for_gridelements/Resources/Private/Layouts/
     }
@@ -50,5 +47,3 @@ lib.gridelements.defaultGridSetup {
         20 = EXT:grid_for_gridelements/Resources/Private/Templates/
     }
 }
-
-tt_content.gridelements_pi1 < lib.gridelements.defaultGridSetup
