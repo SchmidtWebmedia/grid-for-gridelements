@@ -16,7 +16,6 @@
             "role": "Developer"
         }
     ],
-    "version": "2.0.0",
     "require": {
         "typo3/cms-core": "^10.4",
         "gridelementsteam/gridelements": "^10.0.0"

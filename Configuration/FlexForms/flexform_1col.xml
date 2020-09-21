@@ -7,13 +7,13 @@
         <col>
             <ROOT type="array">
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang_db.xlf:grid.onecols.title</sheetTitle>
+                    <sheetTitle>LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang.xlf:grid.onecols.title</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el type="array">
                     <onecol type="array">
                         <TCEforms type="array">
-                            <label>LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang_db.xlf:grid.label.colratio</label>
+                            <label>LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang.xlf:grid.label.colratio</label>
                             <config type="array">
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>
