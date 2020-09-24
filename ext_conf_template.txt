@@ -1,2 +1,2 @@
-# cat=basic/enable; type=string; label=Path to Grid Config JSON
+# cat=basic; type=string; label=Path to Grid Config JSON
 gridConfig = EXT:grid_for_gridelements/Resources/Private/Grid/Grid.json
