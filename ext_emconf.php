@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Multi Framework grids for GridElements',
-    'description' => 'To add an easy to use grid with GridElements. It\'s Framework independent. Prepared for Bootstrap v4.',
+    'description' => 'Add an easy to use grid element with GridElements. It\'s Framework independent. Prepared for Bootstrap v4.',
     'category' => 'plugin',
     'author' => 'Marco Schmidt',
     'author_email' => 'typo@schmidt-webmedia.de',

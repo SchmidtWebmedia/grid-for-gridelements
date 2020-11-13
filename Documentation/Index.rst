@@ -10,11 +10,11 @@
 .. _start:
 
 =============================================================
-Grid for Gridelements
+Grid for GridElements
 =============================================================
 
 :Version:
-   2.0.0
+   2.0.1
 
 :Language:
    en
@@ -30,7 +30,7 @@ Grid for Gridelements
    `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons)
    license
 
-To add an easy to use grid with GridElements. It's Framework independent. Prepared for Bootstrap v4.
+Add an easy to use grid element with GridElements. It's Framework independent. Prepared for Bootstrap v4.
 
 **TYPO3**
 
