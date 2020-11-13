@@ -1,2 +1,2 @@
-# cat=basic; type=string; label=Path to Grid Config JSON
+# cat=basic; type=string; label=LLL:EXT:grid_for_gridelements/Resources/Private/Language/locallang.xlf:extsettings.gridConfig
 gridConfig = EXT:grid_for_gridelements/Resources/Private/Grid/Grid.json

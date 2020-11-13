@@ -47,6 +47,10 @@
 			<trans-unit id="grid.label.colratio">
 				<source>Grid Ratio</source>
 			</trans-unit>
+
+			<trans-unit id="extsettings.gridConfig">
+				<source>Path to Grid Config JSON</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -12,6 +12,10 @@ All notable changes to this project will be documented in this file.
 
 - Labels in Backend
 
+**Added**
+
+- Translatable extension settings label
+
 [2.0.0] - 2020-04-26
 ^^^^^^^^^^^^^^^^^^^^
 **Added**
