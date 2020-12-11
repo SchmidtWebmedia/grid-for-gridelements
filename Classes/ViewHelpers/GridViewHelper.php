@@ -3,6 +3,7 @@
 namespace SchmidtWebmedia\GridForGridElements\ViewHelpers;
 
 use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
 
 class GridViewHelper extends AbstractViewHelper
@@ -15,8 +16,8 @@ class GridViewHelper extends AbstractViewHelper
     {
         $this->registerArgument('type', 'string', 'col or row', true);
         $this->registerArgument('layout', 'string', 'Name of Flexform Layout');
-        $this->registerArgument('colType', 'string', 'Which Ratio would be choosed');
         $this->registerArgument('colIndex', 'int', 'Index of Column');
+        $this->registerArgument('colFlexform', 'string', 'Flexform XML from GridElements');
     }
 
     /**
@@ -32,17 +33,15 @@ class GridViewHelper extends AbstractViewHelper
 				} else {
 					return 'row';
 				}
-                break;
             case 'col':
                 $layout = $this->arguments['layout'];
-                $ratio = $this->arguments['colType'];
+                $ratio = self::readXML($this->arguments['colFlexform'], $layout);
                 $index = $this->arguments['colIndex'];
 				if(isset(self::$GridConfiguration['cols'][0][$layout][$ratio]['class'][$index])) {
 					return self::$GridConfiguration['cols'][0][$layout][$ratio]['class'][$index];
 				} else {
 						return 'col';
                 }
-                break;
         }
 
         return $this->arguments['type'];
@@ -54,5 +53,19 @@ class GridViewHelper extends AbstractViewHelper
             $jsonInput = file_get_contents(\TYPO3\CMS\Core\Utility\GeneralUtility::getFileAbsFileName($path));
             self::$GridConfiguration = json_decode($jsonInput, true);
         }
+    }
+
+    /**
+     * @param $xmlString
+     * @param $layout
+     *
+     * @return string|null
+     */
+    private static function readXML($xmlString, $layout) {
+        if($xmlString !== null) {
+            $xml = GeneralUtility::xml2array($xmlString);
+            return $xml['data']['col']['lDEF'][$layout]['vDEF'];
+        }
+        return null;
     }
 }
