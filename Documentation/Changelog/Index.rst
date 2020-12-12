@@ -6,7 +6,13 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
-[2.0.1] - 2020
+[2.1.0] - 2020-12-11
+^^^^^^^^^^^^^^^^^^^^
+**Fixed**
+
+- Forms in a column
+
+[2.0.1] - 2020-11-13
 ^^^^^^^^^^^^^^^^^^^^
 **Fixed**
 

@@ -46,4 +46,18 @@ tt_content.gridelements_pi1 {
     templateRootPaths {
         20 = EXT:grid_for_gridelements/Resources/Private/Templates/
     }
+    dataProcessing {
+        10 {
+            default {
+                options {
+                    resolveFlexFormData = 0
+                }
+            }
+        }
+        11 = SchmidtWebmedia\GridForGridElements\DataProcessor\FlexFormProcessor
+        11 {
+            fieldName = pi_flexform
+            as = flexform
+        }
+    }
 }
