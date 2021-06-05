@@ -29,6 +29,8 @@
         "typo3-ter/grid-for-gridelements": "self.version"
     },
     "extra": {
-        "extension-key": "grid_for_gridelements"
+        "typo3/cms": {
+            "extension-key": "grid_for_gridelements"
+        }
     }
 }
