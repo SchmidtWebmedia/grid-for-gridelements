@@ -6,6 +6,12 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+[2.1.1] - 2021-08-05
+^^^^^^^^^^^^^^^^^^^^
+**Fixed**
+
+- Add extension key to composer.json
+
 [2.1.0] - 2020-12-12
 ^^^^^^^^^^^^^^^^^^^^
 **Fixed**
