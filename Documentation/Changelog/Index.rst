@@ -6,6 +6,13 @@ Changelog
 =========
 All notable changes to this project will be documented in this file.
 
+
+Unreleased
+^^^^^^^^^^^^^^^^^^^^
+**Breaking Changes**
+
+- Change section name in Templates to default
+
 [2.1.1] - 2021-08-05
 ^^^^^^^^^^^^^^^^^^^^
 **Fixed**
