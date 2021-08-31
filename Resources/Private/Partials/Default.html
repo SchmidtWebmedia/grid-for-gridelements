@@ -1,4 +1,4 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:grid="SchmidtWebmedia\GridForGridElements\ViewHelpers" data-namespace-typo3-fluid="true">
 <f:section name="Column">
 	<f:for each="{children}" as="column" key="columnNumber" iteration="iterator">
 		<div class="{grid:grid(type: 'col', colFlexform: '{data.pi_flexform}', layout:'{data.tx_gridelements_backend_layout}', colIndex:'{iterator.index}')} grid-col">
