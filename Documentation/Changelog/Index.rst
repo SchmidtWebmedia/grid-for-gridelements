@@ -12,6 +12,7 @@ Unreleased
 **Breaking Changes**
 
 - Change section name in Templates to default
+- Remove own Layout file so the "Appearance Settings" are added to parent divs
 
 [2.1.1] - 2021-08-05
 ^^^^^^^^^^^^^^^^^^^^

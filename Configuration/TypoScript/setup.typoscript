@@ -35,9 +35,6 @@ tt_content.gridelements_pi1 {
     variables {
         content =< tt_content.gridelements_view
     }
-    layoutRootPaths {
-        20 = EXT:grid_for_gridelements/Resources/Private/Layouts/
-    }
 
     partialRootPaths {
         20 = EXT:grid_for_gridelements/Resources/Private/Partials/
